@@ -1,0 +1,35 @@
+body{background-color: aqua;}
+.Box1{
+    height: 49%;
+    width: 49%;
+    border: brown dotted 2px;
+    background-color: pink;
+    float: left;
+}
+h1{margin-left: 112px;
+color: whitesmoke;}
+.button1{
+    border-radius: 10px;
+    margin-left: 112px;
+    margin-top: 50px;
+    height: 50px ;
+    width: 100px;
+    background-color: whitesmoke;
+}
+.box2{
+    height: 49%;
+    width: 49%;
+    border: brown dotted 2px;
+    background-color: palegreen;
+   float: left;
+}
+.button2{
+    border-radius: 10px;
+    margin-left: 112px;
+    margin-top: 50px;
+    height: 50px ;
+    width: 100px;
+    background-color: whitesmoke;
+    
+}
+}
