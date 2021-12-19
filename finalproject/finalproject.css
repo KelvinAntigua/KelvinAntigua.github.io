@@ -1,0 +1,119 @@
+body{
+    background-color:#a9dce3;
+}
+.Mainbox{
+    margin-top:3%;
+    margin-left: 18%;
+    background-color:#7689de;
+    height: 80%;
+    width: 70%;
+    border-radius: 20px;
+   
+
+}
+.btn{
+    width: 25%;
+    height: 12%;
+    border-radius: 35px;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 45px;
+    background-color: #a9dce3;
+    
+}
+.userInput{
+    height: 50px;
+    width: 350px;
+     border-radius: 10px;
+     margin-left: 25%;
+     margin-top: 35px;
+     background-color: #a9dce3;
+    
+}
+img{ 
+    margin-left: 40%;
+    margin-top: 10px;
+  width: auto;
+    height: 200px;
+}
+.record{
+    width: 80px;
+    height: 75px;
+    background-color: #a9dce3;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: -26px;
+    
+}
+.inputData{
+    width: 50%;
+    height: 12%;
+    background-color:whitesmoke ;
+    margin-left: 25%;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: #a9dce3;
+    
+    
+}
+p{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+     font-weight: bold; 
+}
+h1 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+     font-weight: bold; 
+}
+h2{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+     font-weight: bold; 
+}
+h3{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+     font-weight: bold; 
+ 
+}
+.guessContents{
+    height: 70%;
+    width: 70% ;
+    border-style: dashed 2px;
+    background-color: antiquewhite;
+    
+    margin-left: 130px;
+    margin-top: -25px;
+}
+.reset{
+    float: right;
+    margin-top: -75px;
+    width: 80px;
+    height: 75px;
+    border-radius: 15px;
+    margin-right: 16px;
+    background-color: #a9dce3;
+}
+.youwin{
+  margin-top: -200px;
+  display: none;
+}
+.toohigh{
+    margin-top: -200px;
+    display:none;
+    margin-left: 180px;
+}
+.toolow{
+    display: none;
+    margin-top: -200px;
+    margin-left: 160px;
+}
+.finally{
+    text-align: center;
+    margin-top: -22px;
+    color: #a9dce3;
+}
+.inputRecord{
+    margin-top: -35px;
+}
