@@ -1,0 +1,46 @@
+body{
+    background-image: url("freedom-tower.jpeg");
+    background-size: 100% 100%;
+}
+.clock{
+    border: 2px black;
+    width: 45%;
+    height: 70%;
+    margin: auto;
+    background-image: url("clockimage.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.hourHand{
+ width: 35%;
+  height:20% ;
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  background-image: url("hand.png");
+  background-size: 100% 100%;
+  animation: hour 10s ;
+  transform-origin: left;
+}
+ 
+.minuteHand{
+    width: 35%;
+    height: 25%;
+    position: absolute; 
+    transform: rotate(270deg);
+    left: 51%;
+    bottom: 35%;
+    background-image: url("hand.png");
+    background-size: 100% 100%;
+    animation: minute 10s;
+    transform-origin: left;
+
+}
+
+@keyframes minute {
+    100%{ transform: rotate(630deg);}
+}
+
+@keyframes hour {
+    100%{ transform: rotate(30deg);}
+}
